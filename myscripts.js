@@ -28,11 +28,6 @@ function calculateCost() {
 
 
 
-
-
-
-
-
 function updateForm(){
     
     //hide all input
