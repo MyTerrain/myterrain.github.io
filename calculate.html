@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yard Calculator</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="myscripts.js"></script>
+
+</head>
+<body>
+    <header>
+        <h1 ><a class="title" href="GreenThumb.html">Green Thumb Lawn Care Service</a></h1>
+    </header>
+    <h2>Calculator Yard Size</h2>
+
+<!----------------------------Calculating Area--------------------------->
+<div>
+
+    <p> If you <u><em>DO NOT</em></u> know the size of your yard, please fill in the following information:</p>
+    <!-- <p>What shape is your yard?</p> -->
+    <form action="javascript:calculateArea()" onchange="javascript:updateForm()">
+
+<!--IF USER SELECTED NO-->
+        
+            <label for="id_shapes">Select the shape of your yard</label>
+            <select id="id_shapes">
+                <option value="blank" selected></option>
+                <option value="square">Square</option>
+                <option value="rectangle">Rectangle</option>
+                <option value="circle">Circle</option>
+                <option value="triangle">Triangle</option>
+            </select>
+
+
+            <!--CIRCLE-->
+        <div id="id_inputs_circle" hidden>
+            <label for="id_radius">Radius</label>
+            <input id="id_radius" type="number" min="0" step="any">
+            <!-- <h2><em>A = &Pi;;r <sup>2</sup></sup></em></h2> -->
+        </div>
+
+            <!--SQUARE-->
+        <div id="id_inputs_square" hidden>
+            <label for="id_side">Side</label>
+            <input id="id_side" type="number" min="0" step="any">
+            <!-- <h2><em>A = s <sup>2</sup></sup></em></h2> -->
+        </div>
+
+            <!--RECTANGLE-->
+        <div id="id_inputs_rectangle" hidden>
+            <label for="id_length">Length</label>
+            <input id="id_length" type="number" min="0" step="any">
+            <label for="id_width">Width</label>
+            <input id="id_width" type="number" min="0" step="any">
+            <!-- <h2><em>A = lw </em></h2> -->
+        </div>
+
+            <!--TRIANGLE-->
+            <div id="id_inputs_triangle" hidden>
+            <label for="id_base">Base</label>
+            <input id="id_base" type="number" min="0" step="any">
+            <label for="id_height">Height</label>
+            <input id="id_height" type="number" min="0" step="any">
+        </div>
+        
+        <input type="submit" value="Calculate Area">
+        <p id="id_output"></p>
+    <!--IF USER SELECTED NO-->
+    
+    </form>
+
+</div>
+
+<!----------------------------Calculating Area--------------------------->
+
+
+<div>
+    <h2>Price Calculator: </h2>
+    <em><p>If you know the area of your yard and want to the price, Please enter the area of your yard below</p></em>
+    <p>Enter area of grass:</p>
+    <input type="number" id="area" placeholder="Enter area in square feet">
+    <button onclick="calculateCost()">Calculate Cost</button>
+    <p id="result"></p>
+</div>
+
+    <h2>Recommendation</h2>
+    <p> Based on the size AND/OR price calculated, we recommend you go with the: <p id = "recommend"></p></p>
+
+</body>
+</html>

@@ -1,0 +1,340 @@
+a:link{
+  color: blue;
+}
+
+a:visited{
+  color: blue;
+}
+
+a:hover{
+  color: green;
+}
+
+.home:any-link{
+  text-decoration: none;
+  font-size: 80px;
+  color: white;
+}
+
+.title:any-link{
+  text-decoration: none;
+  color: white;
+}
+
+.black{
+  background-color: aquamarine;
+  font-size: 30px;
+}
+
+
+body {
+    background-color:beige;
+}
+
+ul{
+  list-style-type: none;
+}
+
+/*------------------------------------BERMUDA GRASS--------------------------------------*/
+header {
+    background-color: red;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header h1 {
+    color: white;
+  }
+  
+  /* Style the main title */
+  h2 {
+    color: blue;
+    background-color: gray;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Style the grass image */
+  #grass-image {
+    /* width: 740px; */
+    float: left;
+    width: 100%;
+    height: 380px;
+  }
+  
+  
+  .sub-section {
+    padding: 50px;
+    float: left;
+    border-bottom: 80px;
+  }
+  
+  /* Style for subsection title */
+  .sub-section h3 {
+    font-weight: bold;
+    background-color: #000;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+  }
+ 
+  /* Style for gray boxes */
+  .gray-box {
+    margin-top: 0%;
+    background-color: gray;
+    color: white;
+    font-family: Arial, sans-serif;
+    border-color: #000;
+    border: 20px;
+    align-self: center;
+
+  }
+
+  .green-box{
+  background-color: aquamarine;
+ }
+
+  /*---------------------------------------------------GreenThumb--------------------------------------------*/
+.question{
+  line-height: 2.0;
+}
+
+
+#calc{
+  background-color: yellow;
+  padding: dashed;
+  font-size: 25px;
+  font-weight: bold;
+  color: #000
+}
+
+.home:hover{
+  text-decoration: none;
+}
+
+.HOMEimages{
+  background-color: beige;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 5px;
+  padding: 5px;
+  width: 900px;
+  height: 500px;
+}
+.images {
+  background-color: beige;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 550px;
+  height: 300px;
+}
+
+  /* Apply styles to the title */
+.title {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 80px;
+}
+
+/* Style the regions section */
+.regions {
+  background-color: beige;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.select-region{
+  text-align: center;
+  font-size: 20px;
+}
+
+/* Style the map and quote */
+.map {
+    width: 50%;
+    text-align: right;
+    color: #000;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 18px;
+}
+
+/* Style the region list */
+.region-list {
+    width: 350px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 3.5;;
+}
+
+.region-list ul li{
+  margin: 3%;
+  background-color: orange;
+}
+/* Apply styles to the regions list */
+.region  {
+    list-style: none;
+    /*padding: 0;*/
+}
+
+.region  {
+    margin-bottom: 80px;
+}
+
+/* Style the contact section */
+.contact {
+    background-color: red;
+    color: white;
+    padding: 20px;
+}
+
+.contact-info {
+    margin: 5px 0;
+}
+
+/* Style the social media section */
+.social-media {
+    text-align: center;
+    padding: 20px;
+}
+
+/*--------------------------Grass Format ALL REGION------------------------------------------------------------*/
+.tall-fescue, .bermuda, .kentucky, .ryegrass{
+  background-color: beige;
+  border-radius: 10px;
+  width: 400px;
+  height: 400px;
+  display:inline-flex;
+  margin-left: 40px;
+  margin-right: 30px;
+}
+
+.west, .northeast, .midwest, .south {
+  text-align: center;
+  font-size: 30px;
+  padding: 20px;
+  margin-top: 0%;
+
+}
+
+.select-grass{
+  margin-top: 0%;
+  background-color: beige;
+  padding-bottom: 50px;
+}
+
+.grass-type p{
+  display: inline-block;  
+  font-size: 15px;
+  padding-right: 180px;
+  padding-left: 200px;
+  padding-bottom: 100px;
+}
+
+.grass{
+margin-top: 0%;
+}
+
+.empty{
+  background-color: red;
+  padding: 30px;
+}
+
+
+
+/*---------------------------------------------------SOUTH--------------------------------------------------------*/
+
+
+
+
+
+    /*---------------------------------------------------SMALL--------------------------------------------*/
+  /*  body, h1, h2 {
+      margin: 0;
+      padding: 0;
+  }*/
+  
+  /* Style the page title */
+  h1 {
+      background-color: red;
+      color: white;
+      padding: 10px;
+      text-align: center;
+  }
+  
+  /* Style the "Request Form" section */
+  h2 {
+      background-color: gray;
+      color: blue;
+      padding: 10px;
+      text-align: center;
+  }
+  
+  /* Style the form labels */
+  label {
+      color: white;
+      background-color: blue;
+      display: inline-block;
+      padding: 5px 20px;
+      margin: 5px 0;
+  }
+  
+  /* Style the form submit button */
+  input[type="submit"] {
+      color: white;
+      background-color: green;
+      border: none;
+      padding: 10px 20px;
+      margin: 10px auto;
+      display: block;
+  }
+  
+  /* Center the form within its section */
+  form {
+      text-align: left;
+  }
+  
+  /* Adjust margins for the form inputs */
+  input[type="text"],
+  input[type="email"] {
+      margin: 5px 0;
+      padding: 5px;
+      display: block;
+      width: 100%;
+  }
+
+  /*-----------------------------------YARD CALCULATOR--------------------------------*/
+  label{
+    background-color: bisque;
+    color: #000
+  }
+
+  .emoh{
+    text-align: center;
+    color: #000;
+    font-size: 80px;
+    background-color: blue;
+  }
+
+  .final{
+    text-align: center;
+    font-size: 70px;
+  }
+
+  /*-----------BACK BUTTON------*/
+ .bttn{
+  text-align: left;
+  background-color: gray;
+  margin-top: 0%;
+ }
+
+ .northeast{
+  margin-top: 0%;
+}
